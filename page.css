@@ -28,6 +28,10 @@ html, body {
     font-weight: bold;
 }
 
+.lien {
+    color: rgb(255, 121, 143);
+}
+
 .contact {
     /*bouton contact*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
