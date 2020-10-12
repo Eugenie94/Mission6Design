@@ -15,7 +15,7 @@
     </script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/a3b3ad3be6.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="LOGO.ico">
+    <link rel="icon" href="logo3.ico">
     <!--<link rel="icon" href="logo-web.ico" /> -->
     <link href="page4.css" type="text/css" rel="stylesheet">
     <link href="page.css" type="text/css" rel="stylesheet">
@@ -26,7 +26,7 @@
     <header>
         <!--menu-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light my-2">
-            <a class="navbar-brand titrenav text-secondary" href="index.html"><b>Eug JMK Design</b></a>
+            <a class="titre" href="index.html"><b>Eug JMK Design</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,8 +46,8 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-4">
-                    <a class="btn btn-outline-secondary my-2 my-sm-0 contact" href="contact.html"
-                        type="submit">Contact</a>
+                    <a class="contact" href="contact.html"
+                        type="submit"><b>Contact</b></a>
                 </form>
             </div>
         </nav>
@@ -60,56 +60,50 @@
         <!--form start-->
         <h1>Formulaire d'inscription</h1>
 
-        <form action="contact.html" method="post" name="registration">
-
+        <form action="index.html" method="post" name="registration">
             <div>
-                <label for="civilite">Civilité : </label>
-                <select name="Civilité" id="civilite">
+                <label for="civilite"><b>Civilité : </b></label><br>
+                <select name="civilite" class="dotted">
                     <!-- 'select' used to choose between two options -->
+                    <option value=" "></option>
                     <option value="M.">M.</option>
                     <option value="Mme.">Mme.</option>
                 </select>
             </div>
             <br>
+            <br>
+            
             <div>
-                <label for="name">Nom :</label>
+                <label for="name"><b>Nom et Prénoms :</b></label> <br>
                 <input type="text" id="name" class="dotted" name="name">
                 <!-- required // validated through JS, minimum 2 characters -->
             </div>
             <br>
+            <br>
             <div>
-                <label for="date"> Date : </label>
-                <input type="date" class="champ" name="anniversaire" min="1900-01-01" max="2020-09-24">
+                <label class="date"><b>Date :</b></label> <br>
+                <input type="date" class="dotted" name="anniversaire" min="1900-01-01" max="2020-09-24">
                 <!-- w3c validator (wrongfully) throws an error, polyfill not needed -->
             </div>
+    
+    
             <br>
             <br>
-            <div>
-                <label for="sexe" class="sexe">Sexe :</label><!-- radio multiple choices -->
-
-                Homme &nbsp;<input type="radio" id="homme" name="sexe">
-                Femme &nbsp;<input type="radio" id="femme" name="sexe">
-                Autre &nbsp;<input type="radio" id="autre" name="sexe">
-
+            <div> 
+                <label for="telephone"><b>Téléphone :</b></label><br> <!-- exact 10 numbers -->
+                <input type="tel" class="dotted" id="telephone" name="telephone">
             </div>
-            <br>
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label class="telephone" for="telephone">Téléphone :</label> <!-- exact 10 numbers -->&nbsp;&nbsp;&nbsp;
-                <input type="tel" class="champ" name="telephone">
-            </div>
-            <br>
-            <div>
-                <label for="email">Email :</label>
+            <div><br><br>
+                <label for="email"><b>Email :</b></label><br>
                 <input type="email" class="dotted" id="email" name="email">
             </div>
-            <br>
-
+        
+            <br><br>
+    
             <div>
-                <input type="submit" id="ombre" value="Soumettre"><br>
+                <input class="soumettre champ" type="submit" id="submit" value="Submit"><br>
             </div>
-            <!-- <a href="contact.html" type="submit" id="ombre" value="Soumettre"></a>
-        <a class="btn btn-outline-danger my-2 my-sm-0 contact" href="contact.html" type="submit">Soumettre</a> -->
-            </div>
+    
         </form>
 
 

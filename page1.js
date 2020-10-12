@@ -31,10 +31,6 @@ $(function() {
           maxlength: " Votre téléphone doit afficher 10 chiffres.",
         },
         email: " Veuillez saisir votre adresse e-mail.",
-        website: {
-          url: true,
-        }
-
       },
 
       submitHandler: function(form) {

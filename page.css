@@ -8,13 +8,19 @@ html, body {
     width: 100%;
 }
 
-.titrenav {
+.titre {
     /* EUG JMK DESIGN*/
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(255, 25, 102);
+    margin-right: 45px;
 }
-
-
+.titre:hover {
+    text-decoration: none;
+    color:  rgb(247, 108, 154);
+}
 .nav-link {
     /*titres du menu*/
     font-size: 25px;
@@ -24,7 +30,13 @@ html, body {
 
 .contact {
     /*bouton contact*/
+    color: rgb(255, 25, 102);
     font-size: 30px;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: rgb(255, 25, 102);
 }
 
 
@@ -53,6 +65,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -82,9 +95,11 @@ video {
 /* FIN LIVRABLE 2*/
 
 /* DEBUT LIVRABLE 3 */
-img {
-    margin-top: 50px;
+#image {
+    margin-top: -80px;
+    margin-bottom: -80px;
 }
+
 
 /* FIN LIVRABLE 3 */
 
