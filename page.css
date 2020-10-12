@@ -1,0 +1,130 @@
+/* JAI FAIT LE CHOIX DE NE FAIRE QU UNE SEULE PAGE CSS POUR LES 4 PAGES HTMLS CAR IL Y A TROP PEU DE CODE CSS POUR CHAQUE LIVRABLE */
+/* DEBUT HEADER */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.titrenav {
+    /* EUG JMK DESIGN*/
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav-link {
+    /*titres du menu*/
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.contact {
+    /*bouton contact*/
+    font-size: 30px;
+}
+
+
+/* FIN HEADER */
+
+
+/* PHOTO DEFILLANT EN DESSOUS DU MENU*/
+
+.image1 {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 560px !important;
+}
+
+
+/* FIN PHOTO EN DESSOUS DU MENU */
+
+/* DEBUT 1 */
+
+h1 {
+    font-family: roboto;
+    color: rgb(255, 80, 133);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: roboto;
+    color: rgb(255, 80, 133);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FIN LIVRABLE 1 */
+
+/* DEBUT LIVRABLE 2 */
+
+video {
+    margin-top: 50px;
+}
+
+
+/* FIN LIVRABLE 2*/
+
+/* DEBUT LIVRABLE 3 */
+img {
+    margin-top: 50px;
+}
+
+/* FIN LIVRABLE 3 */
+
+/* DEBUT FOOTER */
+footer {
+    background-color: rgb(253, 150, 167);
+    margin-top: 80px;
+}
+
+.fb-ic {
+    color: rgb(253, 63, 95);
+    padding-left: 330px;
+}
+
+.tw-ic {
+    color: rgb(253, 63, 95);
+}
+
+.gplus-ic {
+    color: rgb(253, 63, 95);
+}
+
+.li-ic {
+    color: rgb(253, 63, 95);
+}
+
+.ins-ic {
+    color: rgb(253, 63, 95);
+}
+
+.pin-ic {
+    color: rgb(253, 63, 95);
+}
+
+.footer-copyright {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(253, 63, 95);
+    margin-top: -60px;
+}
+
+/* FIN FOOTER */
