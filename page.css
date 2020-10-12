@@ -30,8 +30,11 @@ html, body {
 
 .contact {
     /*bouton contact*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
     color: rgb(255, 25, 102);
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .contact:hover {
