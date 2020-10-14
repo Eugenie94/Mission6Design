@@ -118,27 +118,32 @@ footer {
 
 .fb-ic {
     color: rgb(253, 63, 95);
-    padding-left: 330px;
+    text-align: center;
 }
 
 .tw-ic {
     color: rgb(253, 63, 95);
+    text-align: center;
 }
 
 .gplus-ic {
     color: rgb(253, 63, 95);
+    text-align: center;
 }
 
 .li-ic {
     color: rgb(253, 63, 95);
+    text-align: center;
 }
 
 .ins-ic {
     color: rgb(253, 63, 95);
+    text-align: center;
 }
 
 .pin-ic {
     color: rgb(253, 63, 95);
+    text-align: center;
 }
 
 .footer-copyright {
