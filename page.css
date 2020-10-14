@@ -69,7 +69,7 @@ html, body {
 h1 {
     font-family: roboto;
     color: rgb(255, 80, 133);
-    text-align: center;
+    
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -79,14 +79,14 @@ h2 {
     font-family: roboto;
     color: rgb(255, 80, 133);
     font-size: 30px;
-    text-align: center;
+    
     margin-top: 50px;
 }
 
 p {
     font-family: roboto;
     font-size: 20px;
-    text-align: center;
+    
     margin-top: 20px;
 }
 
@@ -117,33 +117,27 @@ footer {
 }
 
 .fb-ic {
-    color: rgb(253, 63, 95);
-    text-align: center;
+    color: rgb(253, 63, 95); 
 }
 
 .tw-ic {
     color: rgb(253, 63, 95);
-    text-align: center;
 }
 
 .gplus-ic {
     color: rgb(253, 63, 95);
-    text-align: center;
 }
 
 .li-ic {
-    color: rgb(253, 63, 95);
-    text-align: center;
+    color: rgb(253, 63, 95);  
 }
 
 .ins-ic {
     color: rgb(253, 63, 95);
-    text-align: center;
 }
 
 .pin-ic {
     color: rgb(253, 63, 95);
-    text-align: center;
 }
 
 .footer-copyright {
